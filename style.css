@@ -9,7 +9,7 @@ body {
   margin: 0,0,0,0;
   font-family: "Poppins", serif;
   background: radial-gradient(circle, #0d3d70 0%, #94bbe9 100%);
-  min-width: 1400px;
+  min-width: 1450px;
   overflow-y: auto;
   overflow-x: auto;
 }
