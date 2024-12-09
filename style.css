@@ -9,7 +9,7 @@ body {
   margin: 0,0,0,0;
   font-family: "Poppins", serif;
   background: radial-gradient(circle, #0d3d70 0%, #94bbe9 100%);
-  min-width: 1400px;
+  min-width: 1450px;
   overflow-y: auto;
   overflow-x: auto;
 }
@@ -130,11 +130,9 @@ span.event {
   width: 100%; /* Span genişliğini tanımlamanıza göre ayarlayın */
 
 }
-span.event > * {
-
-}
 
 span.event .eventDate {
+  padding: 0;
   margin-left: 3px;
   color: aqua;
   flex: 2; /* Genişlik oranı */
@@ -145,7 +143,7 @@ span.event .eventDate {
 
 span.event .eventText {
   flex: 10; /* Ortadaki metin daha geniş alan kaplar */
-  text-align: center; /* Ortalar */
+  text-align: left; /* Ortalar */
   font-size: 12px; /* Metin boyutu */
 }
 
@@ -155,10 +153,10 @@ span.event .eventIcon {
   font-size: 12px; /* İkon boyutu */
 }
 .material-icons {
-  color: aqua;
+  color: #56dd68 !important;
 vertical-align: sub ;
   font-size: 12px  !important;
-  padding-right: 3px;
+  padding-right: 0%;
   
 }
 
