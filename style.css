@@ -87,7 +87,7 @@ ul li div {
 ul li div:hover {
   background-color: #11305c; /* Üzerine gelindiğinde arka plan değişimi */
 }
-span.event:hover {
+a.event:hover {
   background-color: #11305c ;  /* Üzerine gelindiğinde arka plan değişimi */
 }
 .days{
@@ -112,7 +112,7 @@ vertical-align: sub ;
   
 }
 
-span.event {
+a.event {
   width: 100%;
   height: 12%;
   height: auto;
@@ -125,13 +125,13 @@ span.event {
   cursor: pointer;
   padding: 1px;
   margin: 1px;
-  display: flex; /* Span'ı yatay bir esnek kutu yapar */
+  display: flex; /* a'ı yatay bir esnek kutu yapar */
   align-items: center; /* İçerikleri dikeyde ortalar */
-  width: 100%; /* Span genişliğini tanımlamanıza göre ayarlayın */
+  width: 100%; /* a genişliğini tanımlamanıza göre ayarlayın */
 
 }
 
-span.event .eventDate {
+a.event .eventDate {
   padding: 0;
   margin-left: 3px;
   color: aqua;
@@ -141,13 +141,13 @@ span.event .eventDate {
   font-weight: bold;
 }
 
-span.event .eventText {
-  flex: 10; /* Ortadaki metin daha geniş alan kaplar */
+a.event .eventText {
+  flex: 12; /* Ortadaki metin daha geniş alan kaplar */
   text-align: left; /* Ortalar */
   font-size: 12px; /* Metin boyutu */
 }
 
-span.event .eventIcon {
+a.event .eventIcon {
   flex: 1; /* Genişlik oranı */
   text-align: right; /* Metni sağa hizalar */
   font-size: 12px; /* İkon boyutu */
@@ -164,4 +164,8 @@ vertical-align: sub ;
   .container {
     transform: scale(calc(100vw / 1400)); /* Ekran genişliğine göre ölçek */
   }
+}
+
+a{
+  text-decoration: none;
 }
